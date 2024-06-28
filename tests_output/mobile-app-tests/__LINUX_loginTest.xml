@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="mobile-app-tests.loginTest"
+    errors="0" failures="0" hostname="" id="" package="mobile-app-tests" skipped="0"
+    tests="5" time="195.3" timestamp="">
+  
+    <testcase name="Sign in - TC02 Sign In unsuccessfully with Email is empty " classname="mobile-app-tests.loginTest" time="8.367" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Sign in - TC03 Sign In unsuccessfully with Password is empty" classname="mobile-app-tests.loginTest" time="20.92" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Sign in - TC05 Sign In unsuccessfully with password invalid" classname="mobile-app-tests.loginTest" time="23.94" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Sign in - TC04 Sign In unsuccessfully with Email invalid" classname="mobile-app-tests.loginTest" time="20.88" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Sign in - TC01 Sign In successfully with information valid" classname="mobile-app-tests.loginTest" time="23.51" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="mobile-app-tests.createTask"
+    errors="1" failures="0" hostname="" id="" package="mobile-app-tests" skipped="3"
+    tests="0" time="0.002000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new Appium Server session: Connection refused to 127.0.0.1:4723. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.
+ An error occurred while creating a new Appium Server session: Connection refused to 127.0.0.1:4723. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.
+ An error occurred while creating a new Appium Server session: Connection refused to 127.0.0.1:4723. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.
+ An error occurred while creating a new Appium Server session: Connection refused to 127.0.0.1:4723. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="CreateTask- TC01 Create task successfully with information valid without repeat" classname="mobile-app-tests.createTask">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="CreateTask- TC02 Create task successfully have repeat with information valid" classname="mobile-app-tests.createTask">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="CreateTask- TC03 Create task unsuccessfully with information invalid without repeat" classname="mobile-app-tests.createTask">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

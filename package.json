@@ -1,0 +1,23 @@
+{
+  "name": "nightwatchjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@appium/execute-driver-plugin": "^3.0.30",
+    "@nightwatch/mobile-helper": "^0.1.14",
+    "appium": "^2.10.3",
+    "appium-uiautomator2-driver": "^3.5.3",
+    "nightwatch": "^3.6.3",
+    "nightwatch-html-reporter": "^2.0.6"
+  },
+  "dependencies": {
+    "webdriverio": "^8.39.0"
+  }
+}

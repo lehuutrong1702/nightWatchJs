@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mobile-app-tests.createProject"
+    errors="0" failures="0" hostname="" id="" package="mobile-app-tests" skipped="0"
+    tests="3" time="175.2" timestamp="">
+  
+    <testcase name="Project - TC001 Create project successfully with valid information " classname="mobile-app-tests.createProject" time="20.66" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Project - TC003 Validate project creation with the day has passed" classname="mobile-app-tests.createProject" time="34.87" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Project - TC002 Validate project creation with empty project name" classname="mobile-app-tests.createProject" time="32.03" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

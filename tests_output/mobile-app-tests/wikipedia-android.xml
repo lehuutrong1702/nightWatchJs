@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="mobile-app-tests.wikipedia-android"
+    errors="1" failures="0" hostname="" id="" package="mobile-app-tests" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new Appium Server session: [UnsupportedOperationError] The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Android Calculator Test" classname="mobile-app-tests.wikipedia-android">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

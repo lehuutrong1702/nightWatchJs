@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mobile-app-tests.createSpace"
+    errors="0" failures="0" hostname="" id="" package="mobile-app-tests" skipped="0"
+    tests="3" time="143.7" timestamp="">
+  
+    <testcase name="Space - TC01 Create space successfully with information valid" classname="mobile-app-tests.createSpace" time="16.50" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Space - TC03 Create space successfully with Special character" classname="mobile-app-tests.createSpace" time="28.59" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Space - TC02 Create space unsuccessfully with empty field name" classname="mobile-app-tests.createSpace" time="26.76" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

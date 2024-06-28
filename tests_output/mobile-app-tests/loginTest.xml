@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="mobile-app-tests.loginTest"
+    errors="1" failures="0" hostname="" id="" package="mobile-app-tests" skipped="5"
+    tests="0" time="0.002000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new Appium Server session: [UnsupportedOperationError] The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new Appium Server session: [UnsupportedOperationError] The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource"><![CDATA[
+      UnsupportedOperationError: An error occurred while creating a new Appium Server session: [UnsupportedOperationError] The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+    at Object.checkLegacyResponse (D:\nightWatchJs\node_modules\selenium-webdriver\lib\error.js:551:15)
+    at parseHttpResponse (D:\nightWatchJs\node_modules\selenium-webdriver\lib\http.js:506:13)
+    at Executor.execute (D:\nightWatchJs\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Sign in - TC02 Sign In unsuccessfully with Email is empty " classname="mobile-app-tests.loginTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign in - TC03 Sign In unsuccessfully with Password is empty" classname="mobile-app-tests.loginTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign in - TC05 Sign In unsuccessfully with password invalid" classname="mobile-app-tests.loginTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign in - TC04 Sign In unsuccessfully with Email invalid" classname="mobile-app-tests.loginTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign in - TC01 Sign In successfully with information valid" classname="mobile-app-tests.loginTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

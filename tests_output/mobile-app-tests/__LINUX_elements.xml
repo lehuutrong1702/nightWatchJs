@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="mobile-app-tests.elements"
+    errors="0" failures="0" hostname="" id="" package="mobile-app-tests" skipped="0"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An error occurred while running .click() command on &lt;@firstButton&gt;: Timed out while waiting for element &#34;@firstButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\nightWatchJs\nightwatch\examples\mobile-app-tests\wikipedia-android.js:14
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     12 |       })
+     13 |      // .waitForElementVisible(&#39;@firstButton&#39;, 5000)
+     14 |       .click(&#39;@firstButton&#39;) 
+     15 |       .click(&#39;@operatorButton&#39;)
+     16 |       .click(&#39;@secondButton&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@operatorButton&gt;: Timed out while waiting for element &#34;@operatorButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\nightWatchJs\nightwatch\examples\mobile-app-tests\wikipedia-android.js:15
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     13 |      // .waitForElementVisible(&#39;@firstButton&#39;, 5000)
+     14 |       .click(&#39;@firstButton&#39;)
+     15 |       .click(&#39;@operatorButton&#39;) 
+     16 |       .click(&#39;@secondButton&#39;)
+     17 |       .click(&#39;@equalsButton&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@secondButton&gt;: Timed out while waiting for element &#34;@secondButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\nightWatchJs\nightwatch\examples\mobile-app-tests\wikipedia-android.js:16
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     14 |       .click(&#39;@firstButton&#39;)
+     15 |       .click(&#39;@operatorButton&#39;)
+     16 |       .click(&#39;@secondButton&#39;) 
+     17 |       .click(&#39;@equalsButton&#39;)
+     18 |       .getText(&#39;@result&#39;, function(result) {
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@equalsButton&gt;: Timed out while waiting for element &#34;@equalsButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\nightWatchJs\nightwatch\examples\mobile-app-tests\wikipedia-android.js:17
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     15 |       .click(&#39;@operatorButton&#39;)
+     16 |       .click(&#39;@secondButton&#39;)
+     17 |       .click(&#39;@equalsButton&#39;) 
+     18 |       .getText(&#39;@result&#39;, function(result) {
+     19 |         this.assert.equal(result.value, &#39;result is 15&#39;);
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .getText() command on &lt;@result&gt;: Timed out while waiting for element &#34;@result&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\nightWatchJs\nightwatch\examples\mobile-app-tests\wikipedia-android.js:18
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       .click(&#39;@secondButton&#39;)
+     17 |       .click(&#39;@equalsButton&#39;)
+     18 |       .getText(&#39;@result&#39;, function(result) { 
+     19 |         this.assert.equal(result.value, &#39;result is 15&#39;);
+     20 |       })
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
